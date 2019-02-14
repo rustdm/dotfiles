@@ -2,7 +2,6 @@
 Some of the dotfiles for my current build of Arch Linux. For future reference.
 
 # Installed Software
-Markup :
   * i3-gaps
   * i3-status
   * dmenu
