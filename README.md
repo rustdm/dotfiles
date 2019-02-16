@@ -17,7 +17,7 @@ Run build.sh to apply them.
   * noto-fonts-emoji
   * firefox
  
-# .config Files
+# Dotfiles
   * /root/.config/i3/config
   * /root/.xinitrc
   * /root/.fehbg
