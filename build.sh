@@ -18,3 +18,5 @@ cp -v config /root/.config/i3/
 cd ..
 cd termite
 cp -v config /root/.config/termite
+
+
