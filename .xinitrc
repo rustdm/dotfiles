@@ -1,3 +1,3 @@
-xrandr -s 1280x768
+compton -b
 ~/.fehbg &
 exec i3
