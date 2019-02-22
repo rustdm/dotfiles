@@ -12,10 +12,12 @@ Run build.sh to apply them.
   * feh
   * ranger
   * termite
+  * compton
   * NetworkManager
   * noto-fonts-extra
   * noto-fonts-emoji
   * firefox
+  * neofetch
  
 # Dotfiles
   * /root/.config/i3/config
