@@ -1,2 +1,1 @@
-#!/bin/sh
-feh --bg-scale '/home/david/workspace/Arch-Config/paul-earle-39322-unsplash.jpg' 
+feh --bg-scale '/home/david/workspace/Arch-Config/paul-earle-39322-unsplash.jpg'
