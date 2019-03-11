@@ -75,10 +75,12 @@ highlight = #2f2f2f
 [colors]
 
 # special
-foreground      = #a8a19f
-foreground_bold = #a8a19f
-cursor          = #a8a19f
+foreground      = #ffffff
+foreground_bold = #ffffff
+cursor          = #cefceb
 #background      = #171b28
+
+#93dec2
 
 # black
 color0  = #1b1918
@@ -111,7 +113,7 @@ color14 = #00ad9c
 
 # white
 color7  = #a8a19f
-color15 = #e8f2a0
+color15 = #fcee6a
 
 
 
