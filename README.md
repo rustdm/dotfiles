@@ -1,4 +1,4 @@
-# Arch-Config
+# Dotfiles
 Some of the dotfiles for my current build of Arch Linux. For future reference.
 
 Run build.sh to apply them.
