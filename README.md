@@ -18,7 +18,8 @@ For future reference. Run build.sh to apply them.
   * neofetch
  
 # Dotfiles
-  * /root/.config/i3/config
-  * /root/.xinitrc
-  * /root/.fehbg
-  * /root/.config/termite/config
+  * HOME/.config/i3/config
+  * HOME/.xinitrc
+  * HOME/.fehbg
+  * HOME/.config/termite/config
+  * HOME/.nanorc
