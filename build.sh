@@ -1,6 +1,8 @@
 #!/bin/bash
 
-PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite compton ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch"
+# sed 's+root+home/david+g' build.sh > buildUser.sh
+
+PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite compton ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch pulseaudio pavucontrol"
 
 sudo yes | pacman -Syu
 sudo yes "1" | pacman -S xorg-server
