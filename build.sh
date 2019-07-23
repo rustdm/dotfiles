@@ -3,10 +3,12 @@
 # sed 's+root+home/david+g' build.sh > buildUser.sh
 
 PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite compton ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch pulseaudio pavucontrol"
+PKG_UPDATE="pacman -Syu"
+PKG_INSTALL="pacman -S"
 
-sudo yes | pacman -Syu
-sudo yes "1" | pacman -S xorg-server
-sudo yes | pacman -S $PACKAGE_LIST
+sudo yes | $PKG_UPDATE
+sudo yes "1" | $PKG_INSTALL xorg-server
+sudo yes | $PKG_INSTALL $PACKAGE_LIST
 
 WALLPAPER="paul-earle-39322-unsplash.jpg"
 
