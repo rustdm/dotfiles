@@ -2,7 +2,7 @@
 
 # sed 's+root+home/david+g' build.sh > buildUser.sh
 
-PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite compton ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch pulseaudio pavucontrol"
+PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite compton ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch pulseaudio pavucontrol acpilight"
 PKG_UPDATE="pacman -Syu"
 PKG_INSTALL="pacman -S"
 
