@@ -1,4 +1,4 @@
-# Dotfiles
+# dotfiles
 For future reference. Run build.sh to apply them.
 
 # Installed Software
