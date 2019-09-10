@@ -17,7 +17,7 @@ For future reference. Run build.sh to apply them.
   * firefox
   * neofetch
  
-# Dotfiles
+# dotfiles
   * HOME/.config/i3/config
   * HOME/.xinitrc
   * HOME/.fehbg
