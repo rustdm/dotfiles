@@ -12,13 +12,13 @@ else
 	BASE="/root/"
 fi
 
-PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite compton ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch pulseaudio pavucontrol acpilight"
+PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite picom ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch pulseaudio pavucontrol acpilight"
 PKG_UPDATE="pacman -Syu"
 PKG_INSTALL="pacman -S"
 
-#sudo yes | $PKG_UPDATE
-#sudo yes "1" | $PKG_INSTALL xorg-server
-#sudo yes | $PKG_INSTALL $PACKAGE_LIST
+sudo yes | $PKG_UPDATE
+sudo yes "1" | $PKG_INSTALL xorg-server
+sudo yes | $PKG_INSTALL $PACKAGE_LIST
 
 WALLPAPER="paul-earle-39322-unsplash.jpg"
 

@@ -1,3 +1,3 @@
-compton -b
+picom -b
 ~/.fehbg &
 exec i3
