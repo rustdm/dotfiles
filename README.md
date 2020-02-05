@@ -1,7 +1,9 @@
 # dotfiles
-For future reference. Run build.sh to apply them.
+For future reference. To apply, run:
 
-the _vm-display-conf.sh_ script adjusts the X server resolution for use of this config in a virtual machine, such as VirtualBox
+>**sh build.sh**
+
+the **vm-display-conf.sh** script adjusts the X server resolution for use of this config in a virtual machine, such as VirtualBox
 
 # Installed Software
   * xorg-server
