@@ -10,6 +10,7 @@ For future reference. Run build.sh to apply them.
   * feh
   * ranger
   * termite
+  * vim
   * picom
   * NetworkManager
   * noto-fonts-extra
