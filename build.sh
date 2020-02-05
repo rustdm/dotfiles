@@ -12,7 +12,7 @@ else
 	BASE="/root/"
 fi
 
-PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite picom ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch pulseaudio pavucontrol acpilight"
+PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termite vim picom ranger noto-fonts-extra noto-fonts-emoji feh firefox neofetch pulseaudio pavucontrol acpilight"
 PKG_UPDATE="pacman -Syu"
 PKG_INSTALL="pacman -S"
 
