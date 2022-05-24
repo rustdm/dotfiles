@@ -1,5 +1,5 @@
 # dotfiles
-For future reference. To apply, run **sh build.sh**
+For future reference. To apply, run **sudo sh build.sh**
 
 the **vm-display-conf.sh** script adjusts the X server resolution for use of this config in a virtual machine, such as VirtualBox
 
