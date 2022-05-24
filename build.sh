@@ -16,13 +16,13 @@ PACKAGE_LIST="xorg-server xorg-xinit i3-gaps i3status dmenu networkmanager termi
 PKG_UPDATE="pacman -Syu"
 PKG_INSTALL="pacman -S"
 
-sudo yes | $PKG_UPDATE
-sudo yes "1" | $PKG_INSTALL xorg-server
-sudo yes | $PKG_INSTALL $PACKAGE_LIST
+yes | $PKG_UPDATE
+yes "1" | $PKG_INSTALL xorg-server
+yes | $PKG_INSTALL $PACKAGE_LIST
 
 WALLPAPER="paul-earle-39322-unsplash.jpg"
 
-sudo bash -c "echo \"feh --bg-scale '$PWD/$WALLPAPER'\" > .fehbg"
+bash -c "echo \"feh --bg-scale '$PWD/$WALLPAPER'\" > .fehbg"
 
 cp -v .xinitrc .nanorc .fehbg  $BASE
 
